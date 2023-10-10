@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;1,300;1,400&family=Nunito:ital,wght@0,200;1,200&family=Outfit:wght@300&family=Pacifico&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    font-family: 'Nunito',sans-serif;
+}
+h1,h2,h3{
+    font-family: 'Outfit',sans-serif;
+}
