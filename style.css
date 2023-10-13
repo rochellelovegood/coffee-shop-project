@@ -8,3 +8,15 @@ body{
 h1,h2,h3{
     font-family: 'Outfit',sans-serif;
 }
+@layer components {
+    .featured-card {
+      @apply card w-80 bg-base-100 shadow-xl mt-3 ;
+      height: 450px;
+    }
+    .pick-card{
+        @apply card w-80 bg-base-100 shadow-xl image-full
+    }
+    .custom-badge{
+        @apply px-4 py-1 bg-pink-600 text-white font-semibold rounded-full hover:shadow-sm
+    }
+  }

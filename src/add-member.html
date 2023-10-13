@@ -8,6 +8,10 @@
     <title>Rochelle Coffee Shop| homepage</title>
   </head>
   <body>
+    <div id="alertBox" class="hidden bg-green-200 border-l-4 border-green-500 text-green-700 p-4 mt-6">
+      <p>Successful</p>
+    </div>
+    
     <header class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
@@ -50,23 +54,25 @@
    Name
              
            </label>
-           <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+           <input type="text" id="name" placeholder="Type here" class="input input-bordered w-full max-w-xs" required />
          
          </div>
          <div class="form-control w-full max-w-xs mt-4">
            <label class="label">
-   Username
+   Job Title
              
            </label>
-           <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+           <input 
+           id="job"
+           type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" required />
          
          </div>
          <div class="form-control w-full max-w-xs mt-4">
          <input type="file" class="file-input file-input-bordered  w-full max-w-xs" />
          </div>
          <div class="flex justify-center mt-4">
-            <button class="btn"> 
-                Add
+            <button id="submit-btn" class="btn"> 
+                Save
               </button>
          </div>
     </form>
@@ -90,5 +96,6 @@
   </nav>
 </footer>
     <script type="module" src="/main.js"></script>
+    <script src="/src/add-member.js"></script>
   </body>
 </html>
