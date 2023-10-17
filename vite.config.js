@@ -5,8 +5,8 @@ export default {
         input: {
           main: './index.html',
           'add-member': './src/add-member.html',
-          'all-coffee': './src/all-coffee.html',
-          members: './src/members.html',
+          'all-coffee': './src/allcoffee.html',
+          members: './src/member.html',
         },
       },
     },
